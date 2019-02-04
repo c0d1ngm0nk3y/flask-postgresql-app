@@ -1,0 +1,15 @@
+---
+applications:
+- name: postgresql-demo
+  memory: 128M
+  instances: 1
+  command: python app.py
+  #buildpack: python_buildpack
+  services:
+    - postgresql-demo
+  env:
+    DBUSER: NxEuR4Quyq5CPUDE
+    DBPASS: Z0FgNBHfudCZDiat
+    DBHOST: 10.11.241.0
+    DBNAME: wtQpHrgwhhyiroRj
+    DBPORT: 56071
